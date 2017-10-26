@@ -1,0 +1,35 @@
+{
+  "name": "tng-limerick-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tng-limerick-bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "node_modules/gulp/bin/gulp.js"
+  },
+  "author": "Dave Kelly",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.1.5",
+    "bot-utilities": "^2.5.0",
+    "commander": "^2.9.0",
+    "dotenv": "^4.0.0",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.1",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "node-canvas-lambda-deps": "^1.2.0",
+    "node-lambda": "^0.8.13",
+    "rhyme": "0.0.3",
+    "sentence-tokenizer": "0.0.7",
+    "text2png": "^1.0.1",
+    "twit": "^2.2.5"
+  },
+  "devDependencies": {
+    "aws-lambda-node-canvas": "^1.0.2",
+    "del": "^2.2.2",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-install": "^1.1.0",
+    "gulp-zip": "^4.0.0"
+  }
+}
