@@ -1,8 +1,6 @@
 # tng-limerick-bot
 > 🖖 Limericks from Star Trek Scripts
 
-See it in action: https://twitter.com/TrekLimerickBot
-
 ## Configuration
 
 1. Copy the `.env` template
